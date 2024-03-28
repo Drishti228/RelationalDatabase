@@ -1,0 +1,28 @@
+psql --username=freecodecamp --dbname=postgres
+
+\c second_database => to connect with second_database
+
+CREATE TABLE first_table();
+
+\d to see the tables in that particular database
+
+\d table_name to see the data inside the table 
+
+ALTER TABLE table_name ADD COLUMN column_name datatype; ----> for adding a column
+ALTER TABLE table_name DROP COLUMN column_name; -----> to delete any column 
+ALTER TABLE table_name RENAME COLUMN old_name to new_name;
+INSERT INTO table_name(column_one,column_two) VALUES(value_one,value_two); ----. string is always in single quotes. 
+select * from second_table;
+DELETE FROM table_name WHERE condition;
+DROP TABLE table_name;
+ALTER DATABASE database_name RENAME TO new_database_name;
+SERIAL type will make your column an INT with a NOT NULL constraint
+alter table characters add column name varchar(30) not null;
+UPDATE table_name SET column_name=new_value WHERE condition;
+SELECT columns FROM table_name ORDER BY column_name;
+ALTER TABLE table_name ADD PRIMARY KEY(column_name);
+ALTER TABLE table_name DROP CONSTRAINT constraint_name;
+That data type is for decimals. NUMERIC(4, 1) has up to four digits and one of them has to be to the right of the decimal.
+ALTER TABLE table_name ADD COLUMN column_name DATATYPE REFERENCES referenced_table_name(referenced_column_name);
+alter table table_name alter column column_name set not null;
+create table actions(action_id serial primary key);
