@@ -1,10 +1,43 @@
-### if with -eq (equal), -ne (not equal), -lt (less than), -le (less than or equal), -gt (greater than), -ge (greater than or equal)
-### !, &&, and || to compare multiple expressions. There's also == and != operators for an individual expression
-### arg1 OP arg2   Arithmetic tests.  OP is one of -eq, -ne, -lt, -le, -gt, or -ge.
-### Arithmetic binary operators return true if ARG1 is equal, not-equal, less-than, less-than-or-equal, greater-than, or greater-than-or-equal than ARG2.
-### The exit status of 0 means it was true, echo $? like [[ 4 -ge 5 ]]; echo $? and this will print 1 which means it is false.
-### You can think of an exit status of 0 as true. But it means that the command had zero errors.
-### [[ -a countdown.sh ]]; echo $?  ----  to check if the countdown.sh is present in the terminal or not.
+### Exit status 
+<img width="241" alt="exit status" src="https://github.com/Drishti228/RelationalDatabase/assets/84791003/e6de616a-32af-479c-95c8-afae28f2f2b5">
+<br>
+<img width="359" alt="exit status1" src="https://github.com/Drishti228/RelationalDatabase/assets/84791003/1db45762-0e2a-4047-afd4-ec1049fd48e6">
+
+
+### Ending with or containers function 
+<img width="278" alt="ending with or conatiains function" src="https://github.com/Drishti228/RelationalDatabase/assets/84791003/1ac60b27-5897-4c16-b5d0-87479148691e">
+<br>
+<img width="347" alt="ending with or conatiains function1" src="https://github.com/Drishti228/RelationalDatabase/assets/84791003/2ef1965b-b2c4-4f48-8e14-9325b7a28763">
+
+
+### How to get array in terminal 
+<img width="250" alt="array in terminal" src="https://github.com/Drishti228/RelationalDatabase/assets/84791003/86d306fc-1208-46a5-8e29-1a8f03ab86a5">
+
+# 
+## Questionnaire
+<img width="526" alt="Questionaire" src="https://github.com/Drishti228/RelationalDatabase/assets/84791003/29e1bec6-9688-4930-b10e-77c08e6ff6b7">
+
+
+## Fortune
+<img width="194" alt="fortune" src="https://github.com/Drishti228/RelationalDatabase/assets/84791003/40b2ee19-d3eb-4e8b-985a-d2a86d1d4dc9">
+
+
+## Countdown
+<img width="222" alt="countdown" src="https://github.com/Drishti228/RelationalDatabase/assets/84791003/f7986306-18b8-4aac-b125-d070b8f50c37">
+
+
+## Bingo
+<img width="210" alt="bingo" src="https://github.com/Drishti228/RelationalDatabase/assets/84791003/6345650a-8f7f-4374-86a2-4343dee41d2f">
+
+# 
+#### if with -eq (equal), -ne (not equal), -lt (less than), -le (less than or equal), -gt (greater than), -ge (greater than or equal)
+
+#### !, &&, and || to compare multiple expressions. There's also == and != operators for an individual expression
+
+#### arg1 OP arg2   Arithmetic tests.  OP is one of -eq, -ne, -lt, -le, -gt, or -ge. Arithmetic binary operators return true if ARG1 is equal, not-equal, less-than, less-than-or-equal, greater-than, or greater-than-or-equal than ARG2.
+
+#### The exit status of 0 means it was true, echo $? like [[ 4 -ge 5 ]]; echo $? and this will print 1 which means it is false. You can think of an exit status of 0 as true. But it means that the command had zero errors.
+#### [[ -a countdown.sh ]]; echo $?  ----  to check if the countdown.sh is present in the terminal or not.
 
 
 project$ help test: test [expr]
